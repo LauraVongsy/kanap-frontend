@@ -1,5 +1,5 @@
 //Récupération des produits de l'API
-fetch("http://localhost:3000/api/products/")
+fetch("https://kanap-backend.lauravongsy.repl.co/api/products")
     .then(function (res) {
         if (res.ok) {
             return res.json();

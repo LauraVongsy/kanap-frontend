@@ -13,7 +13,7 @@ const itemQuantity = document.getElementById("quantity");
 const btnAddToCart = document.getElementById("addToCart");
 
 //récuperation des produits via l'API
-fetch("http://localhost:3000/api/products/" + idProduct)
+fetch("https://kanap-backend.lauravongsy.repl.co/api/products" + idProduct)
     .then((res) => {
         return res.json();
     })
